@@ -1,0 +1,483 @@
+/****************** Custome Css start***********/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/****************** Custome Css end*************/
+
+/*****************Head Css Start**************/
+.header {
+    padding: 20px 0px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-left {
+    display: flex;
+    align-items: center;
+    /*    justify-content: space-between;*/
+}
+.h-left img{
+    cursor: pointer;
+}
+.h-right {
+    display: flex;
+    align-items: center;
+}
+
+.h-left ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.h-left ul li a {
+    color: #444258;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.h-left ul li a:hover {}
+
+.h-right button {
+    border: none;
+    background: transparent;
+    /* border: 1px solid grey; */
+    padding: 12px 18px;
+    border-radius: 5px;
+    background-color: #ff6162;
+    color: white;
+    /* font-size: 16px; */
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.h-left img {
+    max-width: 100%;
+}
+
+.h-right button:hover {
+    background: #292640;
+    color: white;
+    border-color: #292640;
+    transition: 0.3s;
+}
+
+/*****************Head Css End**************/
+
+/********* banner css start***********/
+.banner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    /*    justify-content: space-between;*/
+}
+
+.l-banner h1 {
+    color: #292640;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.l-banner p {
+    color: #a2a4cb;
+    font-weight: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    /* font-weight: 600; */
+    margin-right: 127px;
+}
+
+.l-banner a i {
+    color: #a2a4cb;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #a2a4cb;
+    border-radius: 100%;
+}
+
+.l-banner a i:hover {
+    background-color: #292640;
+    color: white;
+    border-color: #292640;
+}
+
+.r-banner {}
+
+.r-banner img {
+    max-width: 100%;
+}
+
+.l-banner,
+.r-banner {
+    flex-basis: 50%;
+}
+
+/********* banner css End***********/
+
+/*********** Testimonial css start********/
+.portfolio {
+    padding: 30px 0px;
+}
+
+.gallary {}
+
+.gallary h3 {
+    text-align: center;
+    color: #292640;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.gallary p {
+    text-align: center;
+    color: #a2a4cb;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    margin-top: 6px;
+}
+
+.gallary-item {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallary-item .item {
+    transition: 0.5s;
+    box-shadow: 10px 10px 15px rgb(0 0 0 / 30%);
+}
+
+.gallary-item .item:hover {
+    /*    box-shadow: 10px 10px 15px rgb(2 2 0 / 30%);*/
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*********** Testimonial css End********/
+
+
+/****************line css start********/
+.line {
+    width: 2px;
+    height: 80px;
+    margin: 80px auto;
+    background-color: #a2a4cb;
+
+}
+
+/************* line css end************/
+
+/**************** Features css start*************/
+.features {
+    padding: 40px 0px;
+}
+
+.features-title {
+    text-align: center;
+}
+
+.features-title h2 {
+    color: #292640;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.features-title p {
+    color: grey;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+
+.box1 {
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0px 10px;
+    padding: 14px;
+    border-radius: 6px;
+    
+}
+.box1:hover{
+    box-shadow:  3px 4px 15px rgb(0 0 0 / 30%);
+}
+.features-box {
+    display: flex;
+    margin-top: 55px;
+}
+
+.features-box2 {
+    display: flex;
+    margin: 24px 0px;
+}
+
+.box1 i {
+    color: #ff6162;
+    font-size: 28px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    padding: 6px;
+    margin-top: 20px;
+}
+
+.box1 h2 {
+    color: #464a62;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.box1 p {
+    color: #858788;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/****************** Features css end**********/
+
+
+/*************** footer css start*************/
+.footer {
+    padding: 20px 0px;
+    background-color: #292640;
+}
+
+.footer-title {
+    text-align: center;
+    color: white;
+}
+
+.footer-title h1 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer-title a button {
+    border: none;
+    background: #ff6162;
+    color: white;
+    padding: 17px 22px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    /* font-size: 13px; */
+    font-weight: 700;
+    cursor: pointer;
+/*    transition: 0.2s;*/
+}
+
+.footer-title a button:hover {
+    border: 2px solid #ff6162;
+    color: white;
+    background: transparent;
+/*    transition: 0.2s;*/
+}
+
+.copyright p {
+    text-align: right;
+    margin-right: 20px;
+    color: #a7e0d3;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 24px;
+}
+
+/*************** footer css end*************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .h-left ul li {
+    display: inline-block;
+    margin: 0px 0px;
+}
+    .h-right button {
+    border: none;
+    background: transparent;
+    /* border: 1px solid grey; */
+    padding: 10px 2px;
+    border-radius: 5px;
+    background-color: #ff6162;
+    color: white;
+    /* font-size: 16px; */
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    /* margin-right: 284px; */
+    /* margin-right: 213px; */
+    width: 67%;
+}
+    .h-left{
+        margin-left: 3px;
+    }
+    .h-left ul li {
+    display: inline-block;
+    margin: 0px 13px;
+}
+    .h-right{
+            width: 40%;
+    /* margin: 0 auto; */
+    margin-right: 220px;
+    }
+    ul{      
+    margin: 0;
+    padding: 0;
+    padding-left: 7px;
+    }
+    .h-left ul li a {
+    color: #444258;
+    font-weight: 600;
+    font-size: 14px;
+}
+    .banner {
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* display: block; */
+}
+    .banner-content {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    display: block;
+}
+    .l-banner h1 {
+    color: #292640;
+    font-size: 24px;
+    font-weight: 700;
+    /* text-align: center; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    margin-left: 10px;
+}
+    .l-banner p{
+        margin-right: 0px;
+    }
+    .l-banner{
+        text-align: center;
+    }
+    .header {
+    padding: 7px 0px;
+}
+    .l-banner a i {
+    color: #a2a4cb;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #a2a4cb;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+    .portfolio {
+    padding: 0px 0px;
+}
+    .gallary-item {
+    margin-top: 42px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+        display: block;
+}
+    .gallary-item .item {
+    transition: 0.5s;
+    box-shadow: 10px 10px 15px rgb(0 0 0 / 30%);
+    /* padding: 20px; */
+    margin: 20px;
+}
+.box1 {
+    text-align: center;
+    background-color: #f5f5f5;
+    /* margin: 11px 10px; */
+    padding: 14px;
+    border-radius: 6px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+    .features-box {
+    /* display: flex; */
+    margin-top: 55px;
+    display: block;
+    /* margin: 20px; */
+    width: 50%;
+}
+    .features-title h2 {
+    color: #292640;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+}
+    .features-title p {
+    color: grey;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    width: 50%;
+}
+    .features-box2 {
+    /* display: flex; */
+    margin: 24px 0px;
+     display: block; 
+    width: 50%;
+}
+    .footer {
+    padding: 36px 0px;
+    background-color: #292640;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
